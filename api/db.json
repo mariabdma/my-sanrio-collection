@@ -3,52 +3,62 @@
     {
       "id": 1,
       "name": "Cinnamoroll",
-      "quote": "Let’s fly away and have some sweet adventures!"
+      "quote": "Let’s fly away and have some sweet adventures!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/cinnamoroll.jpg"
     },
     {
       "id": 2,
       "name": "Hello Kitty",
-      "quote": "You can never have too many friends!"
+      "quote": "You can never have too many friends!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/hello-kitty.jpg"
     },
     {
       "id": 3,
       "name": "My Melody",
-      "quote": "Baking is my favorite way to make friends smile!"
+      "quote": "Baking is my favorite way to make friends smile!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/my-melody.jpg"
     },
     {
       "id": 4,
       "name": "Keroppi",
-      "quote": "Time to hop into action and have some fun!"
+      "quote": "Time to hop into action and have some fun!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/keroppi.jpg"
     },
     {
       "id": 5,
       "name": "Chococat",
-      "quote": "Let’s invent something amazing today!"
+      "quote": "Let’s invent something amazing today!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/Chococat.jpg"
     },
     {
       "id": 6,
       "name": "Badtz-Maru",
-      "quote": "I might be grumpy, but I’m always ready for adventure!"
+      "quote": "I might be grumpy, but I’m always ready for adventure!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/badtz-maru.jpg"
     },
     {
       "id": 7,
       "name": "Kuromi",
-      "quote": "Being a little mischievous keeps life interesting!"
+      "quote": "Being a little mischievous keeps life interesting!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/kuromi.jpg"
     },
     {
       "id": 8,
       "name": "Pompompurin",
-      "quote": "Nothing beats a cozy nap and some delicious pudding."
+      "quote": "Nothing beats a cozy nap and some delicious pudding.",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/pompurin.jpg"
     },
     {
       "id": 9,
       "name": "Tuxedo Sam",
-      "quote": "Oops! I may be clumsy, but I’m always full of fun!"
+      "quote": "Oops! I may be clumsy, but I’m always full of fun!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/tuxedo-sam.jpg"
     },
     {
       "id": 10,
       "name": "Little Twin Stars",
-      "quote": "Let’s make every day a magical adventure together!"
+      "quote": "Let’s make every day a magical adventure together!",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/twins-stars.jpg"
     }
   ]
 }
