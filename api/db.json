@@ -1,0 +1,54 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Cinnamoroll",
+      "quote": "Let’s fly away and have some sweet adventures!"
+    },
+    {
+      "id": 2,
+      "name": "Hello Kitty",
+      "quote": "You can never have too many friends!"
+    },
+    {
+      "id": 3,
+      "name": "My Melody",
+      "quote": "Baking is my favorite way to make friends smile!"
+    },
+    {
+      "id": 4,
+      "name": "Keroppi",
+      "quote": "Time to hop into action and have some fun!"
+    },
+    {
+      "id": 5,
+      "name": "Chococat",
+      "quote": "Let’s invent something amazing today!"
+    },
+    {
+      "id": 6,
+      "name": "Badtz-Maru",
+      "quote": "I might be grumpy, but I’m always ready for adventure!"
+    },
+    {
+      "id": 7,
+      "name": "Kuromi",
+      "quote": "Being a little mischievous keeps life interesting!"
+    },
+    {
+      "id": 8,
+      "name": "Pompompurin",
+      "quote": "Nothing beats a cozy nap and some delicious pudding."
+    },
+    {
+      "id": 9,
+      "name": "Tuxedo Sam",
+      "quote": "Oops! I may be clumsy, but I’m always full of fun!"
+    },
+    {
+      "id": 10,
+      "name": "Little Twin Stars",
+      "quote": "Let’s make every day a magical adventure together!"
+    }
+  ]
+}
