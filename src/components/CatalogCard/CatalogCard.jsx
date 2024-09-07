@@ -13,25 +13,30 @@ import {
   DeleteIcon,
 } from "./styles";
 
-const CatalogCard = ({ avatarSrc, name, description, quote }) => {
+const CatalogCard = ({
+  avatarSrc,
+  name,
+  description,
+  quote,
+  onEdit,
+  onDelete,
+}) => {
   return (
     <CardDiv>
       <Header>
-        <Avatar src={avatarSrc} alt={`${name}'s image`} />
+        {avatarSrc && <Avatar src={avatarSrc} alt={`${name}'s image`} />}
         <UserInfo>
           <CharacterName>{name}</CharacterName>
           <Description>{description}</Description>
         </UserInfo>
       </Header>
-      <Quote>{quote}</Quote>
+      {quote && <Quote>{quote}</Quote>}
       <Footer>
-        <Button>
-          {" "}
-          <UpdateIcon />{" "}
+        <Button onClick={onEdit}>
+          <UpdateIcon />
         </Button>
-        <Button>
-          {" "}
-          <DeleteIcon />{" "}
+        <Button onClick={onDelete}>
+          <DeleteIcon />
         </Button>
       </Footer>
     </CardDiv>

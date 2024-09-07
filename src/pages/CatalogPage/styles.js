@@ -6,20 +6,22 @@ export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
   max-width: 100%;
   height: auto;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
 `;
 
 export const TitleDiv = styled.div`
   display: flex;
   align-items: center;
-  max-width: 15%;
-  height: auto;
+  flex-grow: 1;
 `;
 
 export const LogoIcon = styled(MdOutlineCollectionsBookmark)`
   font-size: 2.5rem;
-  margin: 16px;
+  margin-right: 16px;
   @media (max-width: 600px) {
     display: none;
   }
@@ -27,21 +29,43 @@ export const LogoIcon = styled(MdOutlineCollectionsBookmark)`
 
 export const AddIcon = styled(IoIosAdd)`
   font-size: 2.5rem;
-  margin: 16px;
+  cursor: pointer;
 `;
 
 export const Title = styled.div`
   font-family: "Playwrite HR", cursive;
   font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
   line-height: 1.35;
 `;
 
 export const CardsDiv = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: 3%;
+  margin: 20px;
   gap: 20px;
-  align-items: center;
+  justify-content: center;
+`;
+
+export const SuccessMessage = styled.div`
+  color: green;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: #e6ffe6;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  border-radius: 5px;
+`;
+
+export const ErrorMessage = styled.div`
+  color: red;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #ffc7c7;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  border-radius: 5px;
 `;

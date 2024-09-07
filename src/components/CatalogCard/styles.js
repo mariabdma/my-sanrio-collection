@@ -2,21 +2,37 @@ import styled from "styled-components";
 import { HiPencilAlt } from "react-icons/hi";
 import { MdDelete } from "react-icons/md";
 
+export const CardDiv = styled.div`
+  background-color: #f8e5e7;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: 300px;
+  min-width: 250px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    flex: 1 1 calc(50% - 20px);
+  }
+
+  @media (max-width: 480px) {
+    flex: 1 1 100%;
+  }
+`;
+
 export const UpdateIcon = styled(HiPencilAlt)`
   font-size: 1.5rem;
 `;
 
 export const DeleteIcon = styled(MdDelete)`
   font-size: 1.5rem;
-`;
-
-export const CardDiv = styled.div`
-  background-color: #f8e5e7;
-  border-radius: 10px;
-  padding: 20px;
-  max-width: 20%;
-  font-family: Arial, sans-serif;
-  color: #333;
 `;
 
 export const Header = styled.div`
