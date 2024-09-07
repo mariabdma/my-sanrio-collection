@@ -70,6 +70,27 @@
       "quote": "Let’s make every day a magical adventure together!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/twins-stars.jpg",
       "description": "Kiki and Lala, also known as the Little Twin Stars, are a pair of celestial siblings who love to explore the world and spread magic wherever they go."
+    },
+    {
+      "id": "6de4",
+      "name": "test",
+      "quote": "",
+      "description": "test",
+      "imageUrl": ""
+    },
+    {
+      "id": "87b0",
+      "name": "aaaaaa",
+      "quote": "",
+      "description": "aaaaaa",
+      "imageUrl": ""
+    },
+    {
+      "id": "dd33",
+      "name": "adicionando",
+      "quote": "",
+      "description": "adicionando",
+      "imageUrl": ""
     }
   ]
 }
