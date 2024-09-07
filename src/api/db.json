@@ -19,7 +19,8 @@
       "name": "My Melody",
       "quote": "Baking is my favorite way to make friends smile!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/my-melody.jpg",
-      "description": "My Melody is a sweet and gentle rabbit who enjoys baking and sewing. She always puts her friends first and has a heart full of love."
+      "description": "My Melody is a sweet and gentle rabbit who enjoys baking and sewing. She always puts her friends first and has a heart full of love.",
+      "imageUrl": "https://mariabdma.github.io/my-sanrio-collection/src/assets/my-melody.jpg"
     },
     {
       "id": "4",
