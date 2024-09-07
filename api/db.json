@@ -1,74 +1,95 @@
 {
   "characters": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Cinnamoroll",
       "quote": "Let’s fly away and have some sweet adventures!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/cinnamoroll.jpg",
       "description": "Cinnamoroll is a fluffy white puppy with long ears that help him fly. He is always ready for new adventures and loves anything sweet."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Hello Kitty",
       "quote": "You can never have too many friends!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/hello-kitty.jpg",
       "description": "Hello Kitty is a kind and cheerful little girl who loves to bake cookies and make friends. Her motto is all about spreading happiness and friendship."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "My Melody",
       "quote": "Baking is my favorite way to make friends smile!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/my-melody.jpg",
       "description": "My Melody is a sweet and gentle rabbit who enjoys baking and sewing. She always puts her friends first and has a heart full of love."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Keroppi",
       "quote": "Time to hop into action and have some fun!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/keroppi.jpg",
       "description": "Keroppi is a fun-loving frog who enjoys swimming and singing. He lives with his family in Donut Pond and loves to make his friends laugh."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Chococat",
       "quote": "Let’s invent something amazing today!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/Chococat.jpg",
       "description": "Chococat is a curious and clever cat known for his sharp wit and his ability to find out about new things before anyone else."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Badtz-Maru",
       "quote": "I might be grumpy, but I’m always ready for adventure!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/badtz-maru.jpg",
       "description": "Badtz-Maru is a mischievous penguin with a rebellious streak. Though he often finds himself in trouble, he’s always up for a new adventure."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Kuromi",
       "quote": "Being a little mischievous keeps life interesting!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/kuromi.jpg",
       "description": "Kuromi is a punky tomboy with a sweet tooth and a bit of a mischievous side. Despite her tough exterior, she has a soft spot for romantic stories."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Pompompurin",
       "quote": "Nothing beats a cozy nap and some delicious pudding.",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/pompurin.jpg",
       "description": "Pompompurin is a laid-back golden retriever who loves nothing more than napping and eating his favorite pudding. He’s friendly, easy-going, and always there to lend a paw."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Tuxedo Sam",
       "quote": "Oops! I may be clumsy, but I’m always full of fun!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/tuxedo-sam.jpg",
       "description": "Tuxedo Sam is a dapper and friendly penguin who loves to eat and collect bow ties. Although he’s a bit clumsy, he’s always ready to have fun."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Little Twin Stars",
       "quote": "Let’s make every day a magical adventure together!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/twins-stars.jpg",
       "description": "Kiki and Lala, also known as the Little Twin Stars, are a pair of celestial siblings who love to explore the world and spread magic wherever they go."
+    },
+    {
+      "id": "6de4",
+      "name": "test",
+      "quote": "",
+      "description": "test",
+      "imageUrl": ""
+    },
+    {
+      "id": "87b0",
+      "name": "aaaaaa",
+      "quote": "",
+      "description": "aaaaaa",
+      "imageUrl": ""
+    },
+    {
+      "id": "dd33",
+      "name": "adicionando",
+      "quote": "",
+      "description": "adicionando",
+      "imageUrl": ""
     }
   ]
 }
