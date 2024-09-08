@@ -19,8 +19,7 @@
       "name": "My Melody",
       "quote": "Baking is my favorite way to make friends smile!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/my-melody.jpg",
-      "description": "My Melody is a sweet and gentle rabbit who enjoys baking and sewing. She always puts her friends first and has a heart full of love.",
-      "imageUrl": "https://mariabdma.github.io/my-sanrio-collection/src/assets/my-melody.jpg"
+      "description": "My Melody is a sweet and gentle rabbit who enjoys baking and sewing. She always puts her friends first and has a heart full of love."
     },
     {
       "id": "4",
@@ -66,31 +65,66 @@
     },
     {
       "id": "10",
+      "name": "Gudetama",
+      "quote": "Meh... too tired to care.",
+      "description": "Gudetama is a lazy, egg yolk character who prefers to be left alone. His motto is to do the least amount of work possible.",
+      "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/gudetama.jpg"
+    },
+    {
+      "id": "11",
       "name": "Little Twin Stars",
       "quote": "Let’s make every day a magical adventure together!",
       "image": "https://mariabdma.github.io/my-sanrio-collection/src/assets/twins-stars.jpg",
       "description": "Kiki and Lala, also known as the Little Twin Stars, are a pair of celestial siblings who love to explore the world and spread magic wherever they go."
     },
     {
-      "id": "6de4",
-      "name": "test",
-      "quote": "",
-      "description": "test",
-      "imageUrl": ""
+      "id": "12",
+      "name": "Kerokerokeroppi",
+      "quote": "Let’s jump into fun and adventures!",
+      "image": "https://example.com/kerokerokeroppi.jpg",
+      "description": "Kerokerokeroppi is an energetic frog who loves to have fun and make friends. He enjoys singing and playing around Donut Pond."
     },
     {
-      "id": "87b0",
-      "name": "aaaaaa",
-      "quote": "",
-      "description": "aaaaaa",
-      "imageUrl": ""
+      "id": "13",
+      "name": "Cogimyun",
+      "quote": "Every day is a new adventure with friends!",
+      "image": "https://example.com/cogimyun.jpg",
+      "description": "Cogimyun is a soft and squishy mushroom character who loves spending time with friends and exploring new places."
     },
     {
-      "id": "dd33",
-      "name": "adicionando",
-      "quote": "",
-      "description": "adicionando",
-      "imageUrl": ""
+      "id": "14",
+      "name": "Gaopoweroo",
+      "quote": "Feel the roar of the adventure!",
+      "image": "https://example.com/gaopoweroo.jpg",
+      "description": "Gaopoweroo is a friendly lion who brings a powerful presence and a lot of courage to his adventures."
+    },
+    {
+      "id": "15",
+      "name": "Kabukinyantaro",
+      "quote": "Let’s make every day a performance!",
+      "image": "https://example.com/kabukinyantaro.jpg",
+      "description": "Kabukinyantaro is a theatrical cat who loves performing and dressing up in various costumes."
+    },
+    {
+      "id": "16",
+      "name": "Marroncream",
+      "quote": "Sweet and gentle, just like a creamy dessert!",
+      "image": "https://example.com/marroncream.jpg",
+      "description": "Marroncream is a sweet chestnut character who enjoys baking and being kind to everyone she meets."
+    },
+    {
+      "id": "17",
+      "name": "Charmmy Kitty",
+      "quote": "Elegance and charm are always in style!",
+      "image": "https://example.com/charmmy-kitty.jpg",
+      "description": "Charmmy Kitty is a graceful and elegant kitten who loves fashion and making her friends feel special."
+    },
+    {
+      "id": "18",
+      "name": "Bonbon Ribbon",
+      "quote": "Sweet and stylish, just like a ribbon!",
+      "image": "https://example.com/bonbon-ribbon.jpg",
+      "description": "Bonbon Ribbon is a stylish character who loves fashion and always wears a lovely ribbon on her head."
     }
   ]
 }
