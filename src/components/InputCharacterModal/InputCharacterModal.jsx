@@ -21,7 +21,7 @@ const InputCharacterSchema = Yup.object().shape({
   description: Yup.string()
     .required("Character description is required")
     .max(175, "Description can be at most 175 characters long"),
-  imageUrl: Yup.string().url("Invalid URL format"),
+  image: Yup.string().url("Invalid URL format"),
 });
 
 const InputCharacterModal = ({
@@ -42,21 +42,17 @@ const InputCharacterModal = ({
   const handleSubmit = async (values, { resetForm, setSubmitting }) => {
     setSubmitting(true);
     try {
+      const characterData = { ...values, image: values.image };
       if (editingCharacter) {
-        await onEditCharacter({ ...editingCharacter, ...values });
+        await onEditCharacter({ ...editingCharacter, ...characterData });
       } else {
-        await onAddCharacter(values);
+        await onAddCharacter(characterData);
       }
       resetForm();
       onClose();
     } catch (error) {
       console.error("Error submitting character:", error);
-      if (axios.isAxiosError(error)) {
-        setErrorMessage(
-          error.response?.data?.message ||
-            "An error occurred while submitting the character."
-        );
-      }
+      setErrorMessage("An error occurred while submitting the character.");
     } finally {
       setSubmitting(false);
     }
@@ -76,7 +72,7 @@ const InputCharacterModal = ({
             name: editingCharacter?.name || "",
             quote: editingCharacter?.quote || "",
             description: editingCharacter?.description || "",
-            imageUrl: editingCharacter?.image || "",
+            image: editingCharacter?.image || "",
           }}
           validationSchema={InputCharacterSchema}
           onSubmit={handleSubmit}
@@ -99,9 +95,9 @@ const InputCharacterModal = ({
                 <ErrorMessage name="description" component={ErrorText} />
               </InputWrapper>
               <InputWrapper>
-                <label htmlFor="imageUrl">Image URL: </label>
-                <Field name="imageUrl" type="text" />
-                <ErrorMessage name="imageUrl" component={ErrorText} />
+                <label htmlFor="image">Image URL: </label>
+                <Field name="image" type="text" />
+                <ErrorMessage name="image" component={ErrorText} />
               </InputWrapper>
               <SubmitButton type="submit" disabled={isSubmitting}>
                 {isSubmitting

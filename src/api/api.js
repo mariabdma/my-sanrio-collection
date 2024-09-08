@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_URL = "http://localhost:5000/characters";
 
-export const fetchCharacters = async (page = 1, limit = 10) => {
+export const fetchCharacters = async (page = 1, limit = 25) => {
   try {
     const response = await axios.get(API_URL, {
       params: {
@@ -19,7 +19,10 @@ export const fetchCharacters = async (page = 1, limit = 10) => {
 
 export const addCharacter = async (newCharacter) => {
   try {
-    const response = await axios.post(API_URL, newCharacter);
+    const response = await axios.post(API_URL, {
+      ...newCharacter,
+      image: newCharacter.image || "default_image_url_here",
+    });
     return response.data;
   } catch (error) {
     console.error("Error adding character:", error);

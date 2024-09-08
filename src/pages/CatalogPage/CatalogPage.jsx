@@ -26,7 +26,7 @@ const CatalogPage = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [hasMore, setHasMore] = useState(true);
   const [page, setPage] = useState(1);
-  const limit = 10;
+  const limit = 25;
 
   useEffect(() => {
     const getCharacters = async () => {
@@ -108,7 +108,7 @@ const CatalogPage = () => {
   };
 
   return (
-    <div>
+    <div id="scrollableDiv">
       <Header>
         <TitleDiv>
           <LogoIcon />
@@ -122,6 +122,8 @@ const CatalogPage = () => {
         dataLength={characters.length}
         next={() => setPage((prevPage) => prevPage + 1)}
         hasMore={hasMore}
+        loader={<h4>Loading...</h4>}
+        endMessage={<p>No more characters to show</p>}
         scrollableTarget="scrollableDiv"
       >
         <CardsDiv>
