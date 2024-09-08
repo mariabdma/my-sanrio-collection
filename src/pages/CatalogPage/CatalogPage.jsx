@@ -26,7 +26,7 @@ const CatalogPage = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [hasMore, setHasMore] = useState(true);
   const [page, setPage] = useState(1);
-  const limit = 10; // Number of items per page
+  const limit = 10;
 
   useEffect(() => {
     const getCharacters = async () => {
@@ -35,7 +35,6 @@ const CatalogPage = () => {
         if (data.length < limit) {
           setHasMore(false);
         }
-        // Ensure no duplicate characters are added
         setCharacters((prevCharacters) => [
           ...prevCharacters,
           ...data.filter(
@@ -45,7 +44,7 @@ const CatalogPage = () => {
         ]);
       } catch (error) {
         setErrorMessage("Error fetching characters.");
-        setTimeout(() => setErrorMessage(""), 3000);
+        setTimeout(() => setErrorMessage(""), 5000);
       }
     };
 
@@ -67,10 +66,10 @@ const CatalogPage = () => {
       const addedCharacter = await addCharacter(newCharacter);
       setCharacters((prevCharacters) => [...prevCharacters, addedCharacter]);
       setSuccessMessage("Character successfully added!");
-      setTimeout(() => setSuccessMessage(""), 3000);
+      setTimeout(() => setSuccessMessage(""), 5000);
     } catch (error) {
       setErrorMessage("Error adding character.");
-      setTimeout(() => setErrorMessage(""), 3000);
+      setTimeout(() => setErrorMessage(""), 5000);
     }
   };
 
@@ -86,11 +85,11 @@ const CatalogPage = () => {
         )
       );
       setSuccessMessage("Character successfully updated!");
-      setTimeout(() => setSuccessMessage(""), 3000);
+      setTimeout(() => setSuccessMessage(""), 5000);
       setEditingCharacter(null);
     } catch (error) {
       setErrorMessage("Error updating character.");
-      setTimeout(() => setErrorMessage(""), 3000);
+      setTimeout(() => setErrorMessage(""), 5000);
     }
   };
 
@@ -101,10 +100,10 @@ const CatalogPage = () => {
         prevCharacters.filter((character) => character.id !== characterId)
       );
       setSuccessMessage("Character successfully deleted!");
-      setTimeout(() => setSuccessMessage(""), 3000);
+      setTimeout(() => setSuccessMessage(""), 5000);
     } catch (error) {
       setErrorMessage("Error deleting character.");
-      setTimeout(() => setErrorMessage(""), 3000);
+      setTimeout(() => setErrorMessage(""), 5000);
     }
   };
 

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/characters";
+const API_URL = "http://localhost:5000/characters";
 
 export const fetchCharacters = async (page = 1, limit = 10) => {
   try {
